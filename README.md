@@ -19,7 +19,7 @@ This configuration includes some basic plugins:
 - Edit enhancement [vim-surround](https://github.com/tpope/vim-surround)
 
 - Edit enhancement [auto-pairs](https://github.com/jiangmiao/auto-pairs)
-  
+
 - Icons [vim-devicons](https://github.com/ryanoasis/vim-devicons)
 
 ## Included colorscheme
