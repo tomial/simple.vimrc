@@ -161,3 +161,5 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 autocmd BufWritePre *.go :call CocAction('runCommand', 'editor.action.organizeImport')
 let g:go_def_mapping_enabled = 0
 
+nmap <space>e :CocCommand explorer<CR>
+

@@ -1,13 +1,13 @@
 #!/bin/bash
 
-backup="~/.vim_backup"
+backup="$HOME/.vim_backup"
 mkdir $backup
-cp ~/.vimrc $backup/.vimrc
+cp $HOME/.vimrc $backup/.vimrc
 
-cp ~/.vim $backup/.vim
+cp $HOME/.vim $backup/.vim
 
-mv ./.vimrc ~/
+cp ./.vimrc $HOME/
 
-mv ./.vim/coc.vim ~/.vim/
-mv ./.vim/coc-settings.json ~/.vim/
-mv ./.vim/vim-go.vim ~/.vim/
+cp ./.vim/coc.vim $HOME/.vim/
+cp ./.vim/coc-settings.json $HOME/.vim/
+cp ./.vim/vim-go.vim $HOME/.vim/
